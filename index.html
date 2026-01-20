@@ -7,21 +7,19 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<title>Zein Khamis – Software Engineer</title>
+<title>Zein Khamis – Backend Software Engineer</title>
 
-<!--  FONTS  -->
 <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
 
-<!-- HEADER -->
 <header>
   <div class="head-inner">
     <a class="brand" href="#intro">Zein A.&nbsp;Khamis</a>
     <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">☰</button>
-    <nav><ul><li><a href="#intro">Home</a></li><li><a href="#about">About</a></li><li><a href="#experience">Experience</a></li><li><a href="#projects">Projects</a></li><li><a href="#contact">Contact</a></li></ul></nav>
+    <nav><ul><li><a href="#intro">Home</a></li><li><a href="#about">About</a></li><li><a href="#experience">Experience</a></li><li><a href="#publication">Research</a></li><li><a href="#projects">Projects</a></li><li><a href="#contact">Contact</a></li></ul></nav>
     <div class="social">
       <a href="https://outlook.office.com/mail/deeplink/compose?to=zeinkhamis1@hotmail.com&subject=Say%20Hello&body=Hey%20Zein!" target="_blank">
   <svg fill="currentColor" viewBox="0 0 24 24" width="24" height="24">
@@ -40,17 +38,9 @@
   </div>
 </header>
 
-<!-- HERO -->
 <section id="intro">
-<!-- Fractal-hero banner  ➜  put this where the site’s header lives -->
 <div id="banner"></div>
 
-<!-- p5.js CDN -->
-<script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
-<!-- p5.js runtime -->
-<script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
-
-<!-- p5.js runtime -->
 <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
 
 <script>
@@ -276,12 +266,11 @@ function windowResized() {
 
 
   <h1>Hi</h1><h2><span class="accent">Zein</span>&nbsp;here<span class="cursor"></span>.</h2>
-  <h3>I build smart tools that make a difference.</h3>
+  <h3>I engineer scalable backend systems.</h3>
   <p>
-    Graduated in Computer Science & Engineering @ AUB<br>
-    AI Product Lead Engineer Intern at SCOPSIS<br>  
-    Software Engineer Intern at Modelpro<br>  
-    Passionate about AI, Product Thinking, and Creative Engineering
+    Computer Science & Engineering @ AUB<br>
+    Backend Software Engineer @ SCOPSIS<br>  
+    Passionate about .NET Architecture, Distributed Systems, and AI
   </p>
   
 <a class="btn" href="https://mail.google.com/mail/?view=cm&fs=1&to=zeinkhamis1@hotmail.com&su=Say%20Hi&body=Hey%20Zein!" target="_blank">
@@ -293,81 +282,76 @@ function windowResized() {
 
 </section>
 
-<!-- ABOUT -->
 <section id="about">
   <div class="heading-row">
     <h2 class="section-heading"><span class="slash">/</span>about&nbsp;me</h2>
   </div>
   <div class="about-grid">
     <div>
-      <p>I’m a <strong>Developer / Full Stack Engineer</strong> and a fresh Graduate at <span style="color:var(--green)">the American University of Beirut</span> with experience in Web App Development and AI engineering.</p>
+      <p>I’m a <strong>Backend Software Engineer</strong> and a fresh Graduate at <span style="color:var(--green)">the American University of Beirut</span> with a focus on high-compliance platforms and distributed architecture.</p>
       <p>Technologies I’ve worked with recently:</p>
       <ul class="tech-list">
-        <li>Python</li>
-        <li>MySQL</li>
-        <li>Java</li>
-        <li>C#</li>
-        <li>C++</li>
-        <li>Flutter</li>
-        <li>AI Agents</li>
-        <li>Azure</li>
+        <li>C# / .NET 9</li>
+        <li>PostgreSQL</li>
+        <li>ASP.NET Core</li>
+        <li>Azure Services</li>
+        <li>SignalR</li>
         <li>Docker</li>
-        <li>FastAPI</li>
+        <li>Python</li>
+        <li>RAG Systems</li>
         <li>React</li>
-        <li>JavaScript</li>
+        <li>Event-Driven Arch</li>
       </ul>
-      <p>Off the clock, you’ll find me building smart apps, launching AI-powered tools, or exploring the intersection of software and business. I love coding, consulting, the gym, and the occasional hike through Lebanon’s mountains.</p>
+      <p>Off the clock, you’ll find me building smart apps, launching AI-powered tools, or exploring the intersection of software and business. I love coding, consulting, and the occasional hike through Lebanon’s mountains.</p>
     </div>
     <img src="engineering pic.jpg" alt="Zein Khamis" class="profile-pic" />
 
   </div>
 </section>
 
-  <!-- EXPERIENCE -->
   <section id="experience">
     <div class="heading-row">
       <h2 class="section-heading"><span class="slash">/</span>experience</h2>
     </div>
     <div class="exp-wrapper">
       <div class="exp-tabs" role="tablist">
-        <button data-i="0" class="active" role="tab">SCOPSIS</button>
-        <button data-i="1" role="tab">Model Pro Consulting</button>
-        
+        <button data-i="0" class="active" role="tab">SCOPSIS (Backend)</button>
+        <button data-i="1" role="tab">SCOPSIS (Intern)</button>
+        <button data-i="2" role="tab">ModelPro</button>
       </div>
 
       <article class="exp-panel active" role="tabpanel">
-        <h3>AI Product Lead Engineer Intern&nbsp;<span>@ SCOPSIS Beirut - Lebanon </span></h3>
-        <time>June&nbsp;2025&nbsp;— Present</time>
+        <h3>Backend Software Engineer&nbsp;<span>@ SCOPSIS Beirut</span></h3>
+        <time>October&nbsp;2025&nbsp;— Present</time>
         <ul>
-          <li>Led the end-to-end design, architecture, and implementation of a <span class="exp-key" style="color:var(--green)">competitive intelligence platform</span> using Python, Docker, and Azure Cloud, achieving 24/7 competitor monitoring, 80% faster content response time, and maintaining near zero infrastructure cost.</li>
-          <li>Designed and deployed a cost-optimized , <span class="exp-key" style="color:var(--blue)">serverless architecture</span> using Azure Functions, Azure container Registry, Storage Queues, Key Vault, PostgreSQL Server and Static Web Apps fully provisioned using Bicep IaC.</li>
-          <li>Built a modular <span class="exp-key" style="color:var(--orange)"> web scraping engine with stealth capabilities, proxy rotation and randomized scheduling </span> that feeds structured data into PostgreSQL.</li>
-          <li>Developed daily scraping workflows <span class="exp-key" style="color:var(--purple)">across LinkedIn, and web sources</span> integrating Azure Durable Functions and Storage Queues</span> to collect data across 100+ competitors for future trend analysis, strategy and R&D. </li>
-          <li>Integrated <span class="exp-key" style="color:var(--pink)">OpenAI GPT models</span> and Embeddings API for multilingual content generation, summarization, and vector-based hybrid search accross scraped dataset.</li>
-          <li>Delivered a full-stack interactive <span class="exp-key" style="color:var(--cyan)">RAG system</span> using React, featuring real time insights, GPT-powered Q&A, and hybrid search over competitor activity.</li>
-          <li>Prioritized <span class="exp-key" style="color:var(--yellow)">low-cost, scalable design</span>, to enable autonomous operation, developer agility, and rapid iteration for early product-market validation.</li>
+          <li>Engineered core backend modules for a <span class="exp-key" style="color:var(--green)">.NET 9 high-compliance platform</span>, supporting multiple fulfillment domains within a single production system.</li>
+          <li>Architected <span class="exp-key" style="color:var(--blue)">ASP.NET Core Minimal APIs</span> powering 10+ core workflows and implemented PostgreSQL persistence layers using EF Core to manage millions of serialized identifiers.</li>
+          <li>Optimized high-throughput bulk ingestion, reducing inventory load operations <span class="exp-key" style="color:var(--orange)">from minutes to seconds</span> via efficient Postgres bulk update paths.</li>
+          <li>Designed an <span class="exp-key" style="color:var(--purple)">event-driven architecture</span> using Azure Service Bus, enabling asynchronous coordination across 5+ backend domains without direct database coupling.</li>
+          <li>Implemented claims-based authorization and fine-grained permissions while integrating <span class="exp-key" style="color:var(--pink)">SignalR</span> for sub-second workflow status updates.</li>
         </ul>
       </article>
-
 
       <article class="exp-panel" role="tabpanel">
-        <h3>Software Engineering Intern&nbsp;<span>@ ModelPro Consulting Tunis - Tunisia</span></h3>
-        <time>June&nbsp;2024&nbsp;— August&nbsp;2024</time>
+        <h3>Software Engineering Intern&nbsp;<span>@ SCOPSIS Beirut</span></h3>
+        <time>June&nbsp;2025&nbsp;— August&nbsp;2025</time>
         <ul>
-          <li>Led the development of a <span class="exp-key">cross-platform Flutter app</span> with <span class="exp-key">Supabase backend</span> for collaborative document sharing and user workspaces.</li>
-          <li>Implemented a modular <span class="exp-key">user and workspace management system</span> with <span class="exp-key">RESTful APIs</span> and local persistence using <span class="exp-key">SharedPreferences</span>.</li>
-          <li>Architected the app with a <span class="exp-key">clean, maintainable structure</span>, enabling scalable onboarding and rapid feature rollout.</li>
-          <li>Worked in a <span class="exp-key">consulting-driven agile environment</span> to align software design with strategic business needs and technical feasibility.</li>
-          <li>Collaborated with stakeholders to deliver a product that balanced <span class="exp-key">user experience</span>, <span class="exp-key">data privacy</span>, and <span class="exp-key">performance optimization</span>.</li>
+          <li>Deployed a serverless <span class="exp-key">Azure-based competitive intelligence platform</span> with 24/7 monitoring and near-zero infrastructure costs.</li>
+          <li>Developed stealth scrapers and AI workflows to track 100+ competitors, integrating <span class="exp-key">OpenAI for trend analysis.</span></li>
+          <li>Delivered a full-stack <span class="exp-key">RAG system</span> featuring hybrid search for real-time strategic insights.</li>
         </ul>
       </article>
 
-
-      
+      <article class="exp-panel" role="tabpanel">
+        <h3>Software Engineering Intern&nbsp;<span>@ Modelpro Consulting Tunis</span></h3>
+        <time>June&nbsp;2024&nbsp;— August&nbsp;2024</time>
+        <ul>
+          <li>Developed a <span class="exp-key">Flutter application</span> with Supabase for full-stack, cross-platform functionality.</li>
+          <li>Engineered a workspace management system for collaborative document sharing and integrated <span class="exp-key">RESTful APIs</span> for data handling.</li>
+        </ul>
+      </article>
     </div>
   </section>
-
-<!-- EDUCATION -->
 
 <section id="education">
   <div class="heading-row">
@@ -383,7 +367,7 @@ function windowResized() {
         </div>
         <div class="edu-desc">
           GPA: 3.47/4.<br>
-          Coursework: Data Structures, Algorithms, Machine Learning, Web Development, Software Engineering, Cloud Computing, Database Systems, Software Architecture, Object Oriented Programming, Theory of Computation, Cryptography.
+          Relevant Coursework: Machine Learning, Software Engineering, Cloud Computing, Database Systems, Software Architecture, Cryptography, Software Security.
         </div>
       </div>
       <div class="edu-card">
@@ -399,20 +383,19 @@ function windowResized() {
   
 </section>
 
-<!-- CV Hacker Project -->
-<section id="cv-hacker">
+<section id="publication">
   <div class="heading-row">
-    <h2 class="section-heading"><span class="slash">/</span>cv&nbsp;hacker</h2>
+    <h2 class="section-heading"><span class="slash">/</span>research</h2>
   </div>
   <div class="cv-hacker-wrapper">
     <div class="project-slide">
-      <img src="cv_hacker.png" alt="CV Hacker AI Tool">
+      <img src="cv_hacker.png" alt="Research Publication"> 
       <div class="content">
         <div>
-          <h3>CV Hacker</h3>
-          <p>CV Hacker is an AI tool that analyzes and improves your CV using Anthropic's models—offering tailored suggestions, ATS-friendly formatting, and a slick hacker-style interface.</p>
+          <h3>LLMs are Bayesian in Expectation</h3>
+          <p>Authored research demonstrating that transformers minimize expected conditional Kolmogorov complexity rather than exchangeable complexity. Proposed a formula proven to reduce inference costs by up to 90%.</p>
         </div>
-        <a href="https://ai-careers-frontend.fly.dev/cv-hacker" target="_blank">Demo →</a>
+        <a href="https://arxiv.org/" target="_blank">Read Paper (arXiv) →</a>
       </div>
     </div>
   </div>
@@ -421,7 +404,6 @@ function windowResized() {
 
 
 
-<!-- PET PROJECTS -->
 <section id="projects">
   <div class="heading-row">
     <h2 class="section-heading"><span class="slash">/</span>some&nbsp;projects</h2>
@@ -432,19 +414,29 @@ function windowResized() {
 
     <div class="slide-track-wrapper">
       <div class="slide-track">
-        <!-- Project 1: Smart Municipality -->
+        
+        <div class="project-slide">
+          <img src="imagee.png" alt="Pythea Toolkit">
+          <div class="content">
+            <div>
+              <h3>Pythea (LLM Reliability Toolkit)</h3>
+              <p>Developed a Python toolkit for procedural hallucination checking (Strawberry), logprob-based offline probing, and a custom HTTP client for the Thea reasoning API.</p>
+            </div>
+            <a href="https://github.com/zein-l">Code →</a>
+          </div>
+        </div>
+
         <div class="project-slide">
           <img src="imagee.png" alt="Smart Municipality">
           <div class="content">
             <div>
-              <h3>Smart Municipality Portal</h3>
-              <p>An innovative smart municipality system that harnesses AI and real-time analytics to modernize governance, digitize citizen services, and build connected, efficient, and sustainable communities.</p>
+              <h3>Smart Municipality Platform</h3>
+              <p>Built a multilingual Flask application integrating live GIS maps, document workflows, and an AI-powered chatbot for civic engagement.</p>
             </div>
             <a href="https://github.com/zein-l/Smart-Municipality-Portal">Code →</a>
           </div>
         </div>
 
-        <!-- Project 2: Currency Exchange -->
         <div class="project-slide">
           <img src="imagee3.png" alt="Currency exchange app">
           <div class="content">
@@ -456,19 +448,6 @@ function windowResized() {
           </div>
         </div>
 
-        <!-- Project 3: E-commerce -->
-        <div class="project-slide">
-          <img src="ecommerce.png" alt="E-commerce Microservices Platform">
-          <div class="content">
-            <div>
-              <h3>E-commerce Microservices Platform</h3>
-              <p>A modular, Dockerized e-commerce backend using Flask microservices for customers, inventory, sales, and reviews with JWT auth, review moderation, and product recommendations.</p>
-            </div>
-            <a href="https://github.com/zein-l/ecommerce_Khamis/tree/master">Code →</a>
-          </div>
-        </div>
-
-        <!-- Project 4: My Recipes App -->
         <div class="project-slide">
           <img src="recipes.png" alt="My Recipes App">
           <div class="content">
@@ -480,7 +459,6 @@ function windowResized() {
           </div>
         </div>
 
-        <!-- Project 5: EECE430 Employee Management -->
         <div class="project-slide">
           <img src="employee.png" alt="Employee Task Management System">
           <div class="content">
@@ -527,7 +505,6 @@ function windowResized() {
 
 
 
-<!-- CONTACT -->
 <section id="contact">
   <div class="heading-row">
     <h2 class="section-heading"><span class="slash">/</span>contact</h2>
@@ -538,9 +515,8 @@ function windowResized() {
 </a>
 </section>
 
-<footer><p>© 2025 — rebuilt with love and no frameworks.</p></footer>
+<footer><p>© 2026 — engineered by Zein Khamis.</p></footer>
 
-<!--  SCRIPTS (unchanged logic) -->
 <script>
 const io=new IntersectionObserver(e=>e.forEach(x=>x.isIntersecting&&x.target.classList.add('in-view')),{threshold:.15});
 document.querySelectorAll('section').forEach(el=>io.observe(el));
@@ -595,4 +571,3 @@ if (mobileToggle && navMenu) {
 </script>
 </body>
 </html>
-
