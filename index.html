@@ -264,12 +264,12 @@ function windowResized() {
         <h3>Full Stack Engineer&nbsp;<span>@ Equitick</span></h3>
         <time>March&nbsp;2026&nbsp;— Present</time>
         <ul>
-          <li>Maintained a comprehensive <span class="exp-key" style="color:var(--green)">full-stack fintech platform</span> across customer-facing, admin, and landing web applications.</li>
-          <li>Developed scalable backend APIs using <span class="exp-key" style="color:var(--blue)">ASP.NET Core / .NET 8</span>, including authentication, business logic, and third-party integrations.</li>
-          <li>Optimized data management and backend performance using <span class="exp-key" style="color:var(--orange)">PostgreSQL and Entity Framework Core.</span></li>
-          <li>Integrated <span class="exp-key" style="color:var(--purple)">Redis, gRPC, background jobs</span>, and notifications to support real-time product workflows and external provider APIs.</li>
-          <li>Contributed to frontend development with <span class="exp-key" style="color:var(--pink)">React and JavaScript</span>, connecting UI flows to backend services to improve user experience.</li>
-          <li>Implemented production-focused engineering practices including logging, monitoring, error tracking, API documentation, and deployment workflows.</li>
+          <li>Engineered and maintained Bursa+, a <span class="exp-key" style="color:var(--green)">full-stack fintech platform</span> spanning customer, admin, and landing applications, serving live trading accounts holding $2M+ in client capital across partner brokers.</li>
+          <li>Built a <span class="exp-key" style="color:var(--blue)">real-time risk monitoring system in .NET 8</span>, computing live P&amp;L, drawdown, and equity-peak metrics from broker accounts and broadcasting them over SignalR to leader dashboards and public profiles.</li>
+          <li>Delivered a <span class="exp-key" style="color:var(--orange)">funded-trader program end to end in four weeks</span>: atomic registration with full rollback, a rule engine enforcing loss and exposure limits with graduated warnings, and a live leaderboard.</li>
+          <li>Diagnosed and resolved an <span class="exp-key" style="color:var(--purple)">equity-reporting defect</span> that doubled tracked drawdown and falsely disqualified legitimate traders, shipping a remediation service that reinstated every affected user with recomputed metrics.</li>
+          <li>Fixed a <span class="exp-key" style="color:var(--pink)">commission calculation</span> that queried the database once per leader inside a loop, replacing it with a single PostgreSQL query, and added the missing validation that had allowed withdrawals exceeding a leader’s earned balance.</li>
+          <li>Built a broker billing subsystem with guaranteed-minimum reconciliation and PDF invoicing, plus transactional delisting cascades spanning the API, admin panel, and trading frontend.</li>
         </ul>
       </article>
 
