@@ -7,7 +7,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<title>Zein Khamis – Full Stack &amp; AI Engineer</title>
+<title>Zein Khamis – Full Stack Engineer</title>
 
 <link rel="stylesheet" href="styles.css">
 
@@ -205,11 +205,11 @@ function windowResized() {
 </script>
 
   <h1>Hi</h1><h2><span class="accent">Zein</span>&nbsp;here<span class="cursor"></span>.</h2>
-  <h3>I build real-time, distributed platforms from zero to scale.</h3>
+  <h3>I build web apps, backend services, and applied AI systems.</h3>
   <p>
-    Computer Science & Engineering @ AUB<br>
-    Full Stack &amp; AI Engineer @ Equitick<br>  
-    C# · .NET 8/9 · React · Python · Azure · GenAI
+    Full Stack Engineer · Beirut, Lebanon<br>
+    Computer Science &amp; Engineering @ AUB<br>
+    C# · .NET 8 · React · Python · Azure
   </p>
   
 <a class="btn" href="https://mail.google.com/mail/?view=cm&fs=1&to=zeinkhamis1@hotmail.com&su=Say%20Hi&body=Hey%20Zein!" target="_blank">
@@ -227,23 +227,24 @@ function windowResized() {
   </div>
   <div class="about-grid">
     <div>
-      <p>I’m a <strong>Full Stack &amp; AI Engineer</strong> and a Graduate of <span style="color:var(--green)">the American University of Beirut</span> with a track record of shipping production systems end to end — real-time distributed services, event-driven backends, and applied GenAI research. I like taking full ownership from zero to scale.</p>
+      <p>I’m a <strong>Full Stack Engineer</strong> based in Beirut and a graduate of <span style="color:var(--green)">the American University of Beirut</span>. I build web apps, backend services, and applied AI systems, working mostly with C#, .NET, Python, React, and Azure. I’ve also co-authored two preprints on large language models.</p>
       <p>Technologies I’ve worked with recently:</p>
       <ul class="tech-list">
-        <li>C# / .NET 8 & 9</li>
-        <li>PostgreSQL</li>
+        <li>C# / .NET 8</li>
         <li>ASP.NET Core</li>
-        <li>Redis / gRPC</li>
-        <li>React</li>
-        <li>Azure Services</li>
+        <li>REST / gRPC</li>
         <li>SignalR</li>
+        <li>EF Core</li>
+        <li>SQL Server / PostgreSQL</li>
+        <li>Redis</li>
+        <li>React</li>
+        <li>TypeScript / JavaScript</li>
+        <li>Azure / Service Bus</li>
         <li>Docker</li>
+        <li>CI/CD · GitHub Actions</li>
+        <li>xUnit</li>
         <li>Python</li>
-        <li>TypeScript</li>
-        <li>RAG Systems</li>
-        <li>Event-Driven Arch</li>
-        <li>CI/CD</li>
-        <li>Integration Testing</li>
+        <li>RAG / Vector Search</li>
       </ul>
       <p>Off the clock, you’ll find me building smart apps, launching AI-powered tools, or exploring the intersection of software and business. I love coding, consulting, and the occasional hike through Lebanon’s mountains.</p>
       <p>Languages: <strong>Arabic</strong> (fluent), <strong>English</strong> (fluent), <strong>French</strong> (professional).</p>
@@ -261,17 +262,20 @@ function windowResized() {
         <button data-i="0" class="active" role="tab">Equitick</button>
         <button data-i="1" role="tab">SCOPSIS (Backend)</button>
         <button data-i="2" role="tab">SCOPSIS (AI Intern)</button>
-        <button data-i="3" role="tab">IAESTE</button>
+        <button data-i="3" role="tab">Hassana Labs</button>
+        <button data-i="4" role="tab">IAESTE</button>
       </div>
 
       <article class="exp-panel active" role="tabpanel">
         <h3>Full Stack Engineer&nbsp;<span>@ Equitick Financials</span></h3>
-        <time>March&nbsp;2026&nbsp;— Present</time>
+        <time>March&nbsp;2026&nbsp;— November&nbsp;2026</time>
         <ul>
           <li>Engineered Bursa+, a <span class="exp-key" style="color:var(--green)">full-stack copy trading platform</span> spanning client, leader, broker, and admin applications, serving live trading accounts holding $2M+ in client capital across partner brokers.</li>
           <li>Built a <span class="exp-key" style="color:var(--blue)">real-time risk monitoring system in .NET</span>, computing live P&amp;L, drawdown, and equity-peak statistics from broker accounts and broadcasting them over SignalR to dashboards.</li>
           <li>Architected a <span class="exp-key" style="color:var(--orange)">funded-trader program end to end in four weeks</span>, delivering atomic registration with full rollback, a rule engine enforcing loss and exposure limits with graduated warnings, and a live dynamic leaderboard.</li>
           <li>Implemented an end-to-end <span class="exp-key" style="color:var(--purple)">broker billing and invoicing engine</span> with multi-tier fee calculation, automated billing cycles, and auditable financial records.</li>
+          <li>Built the <span class="exp-key" style="color:var(--blue)">Introducing Broker service integration</span> and an <span class="exp-key" style="color:var(--green)">AML scoring</span> feature, plus internal dashboards for the platform.</li>
+          <li>Developed a <span class="exp-key" style="color:var(--orange)">Redis-backed live scoring engine</span> that ranks copy-trading leaders in real time.</li>
           <li>Diagnosed and resolved an equity-reporting defect that doubled tracked drawdown and falsely disqualified legitimate traders, shipping a remediation service that reinstated every affected user with recomputed metrics.</li>
           <li>Fixed a <span class="exp-key" style="color:var(--pink)">commission calculation</span> that queried the database once per leader inside a loop, replacing it with a single PostgreSQL query, and added the missing validation that had allowed withdrawals exceeding a leader’s earned balance.</li>
         </ul>
@@ -299,6 +303,15 @@ function windowResized() {
       </article>
 
       <article class="exp-panel" role="tabpanel">
+        <h3>ML Engineer (Part-time)&nbsp;<span>@ Hassana Labs</span></h3>
+        <time>April&nbsp;2025&nbsp;— March&nbsp;2026 · Remote</time>
+        <ul>
+          <li>Ran <span class="exp-key" style="color:var(--green)">LLM evaluations</span> on Qwen, Llama, and Gemma models using <span class="exp-key" style="color:var(--blue)">PyTorch and Hugging Face</span>.</li>
+          <li>Co-authored two arXiv preprints: <span class="exp-key" style="color:var(--orange)">“Attention Deficits in Language Models”</span> (February 2026) and <span class="exp-key" style="color:var(--purple)">“LLMs are Bayesian, in Expectation, not in Realization”</span> (July 2025).</li>
+        </ul>
+      </article>
+
+      <article class="exp-panel" role="tabpanel">
         <h3>Software Engineering Intern&nbsp;<span>@ IAESTE Tunisia</span></h3>
         <time>June&nbsp;2024&nbsp;— August&nbsp;2024</time>
         <ul>
@@ -319,10 +332,10 @@ function windowResized() {
         <div class="edu-title">American University of Beirut (AUB)</div>
         <div class="edu-school">
           <span>Computer Science and Engineering</span><br>
-          <span class="edu-badge">Bachelor</span> <span class="edu-time">2021 – 2025</span>
+          <span class="edu-badge">Bachelor of Science</span> <span class="edu-time">Sep 2021 – May 2025</span>
         </div>
         <div class="edu-desc">
-          GPA: 3.47/4.<br>
+          GPA: 3.47/4.00<br>
           Relevant Coursework: Machine Learning, Software Engineering, Cloud Computing, Database Systems, Software Architecture, Cryptography, Software Security.
         </div>
       </div>
@@ -360,7 +373,7 @@ function windowResized() {
       <div class="content">
         <div>
           <span class="accent" style="font-family: monospace;">arXiv (Cornell University) · July 2025</span>
-          <h3>LLMs are Bayesian in Expectation, not in Realization</h3>
+          <h3>LLMs are Bayesian, in Expectation, not in Realization</h3>
           <p>Co-authored paper and engineered a custom inference framework to validate optimal Chain-of-Thought formulas, achieving a 90% reduction in compute costs through algorithmic optimization.</p>
         </div>
         <a href="https://arxiv.org/" target="_blank">Read Paper (arXiv) →</a>
